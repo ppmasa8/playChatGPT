@@ -1,0 +1,42 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: monospace;
+      color: green;
+      background-color: black;
+      overflow: hidden;
+    }
+
+    .matrix {
+      animation: matrix-scroll 20s linear infinite;
+    }
+
+    @keyframes matrix-scroll {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="matrix">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum eu maximus justo. Nullam quis tincidunt enim.
+      Duis in metus nec purus luctus suscipit non a erat.
+      Pellentesque in ornare dolor. Suspendisse potenti.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum eu maximus justo. Nullam quis tincidunt enim.
+      Duis in metus nec purus luctus suscipit non a erat.
+      Pellentesque in ornare dolor. Suspendisse potenti.
+    </p>
+    <!-- Additional paragraphs can be added here to create more scrolling text -->
+  </div>
+</body>
+</html>
